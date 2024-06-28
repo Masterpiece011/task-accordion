@@ -73,7 +73,5 @@ for (let id = 0; id < accordionsElems.length; id++) {
 }
 
 
-progressBarElem.style.width = (1000 / allAccordionsIds.length) + "px"
-
 
 
