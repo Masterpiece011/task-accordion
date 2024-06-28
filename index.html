@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__wrapper container">
+            <button>
+                <img src="./img/menu-icon.svg" alt="menu-icon">
+            </button>
+            <p>Текст</p>
+        </div>
+        <div class="header__lines">
+            <div class="header__lines-wrapper">
+                <div class="header__left-line"></div>
+                <div class="header__right-line"></div>
+            </div>
+            <div class="header__progress-bar js-progress-bar"></div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="main__content container">
+                <h2>Аккордион</h2>
+                <div class="main__accordion-wrapper js-main__accordion-wrapper">
+                    <div class="main__accordion js-accordion">
+                        <h3>Tab 1</h3>
+                        <img src="./img/arrow-down.svg" alt="arrow-down">
+                    </div>
+                    <div class="main__accordion-content js-accordion-content">
+                        <ol>
+                            <li>Элемент 1</li>
+                            <li>Элемент 2</li>
+                            <li>Элемент 3</li>
+                            <li>Элемент 4</li>
+                            <li>Элемент 5</li>
+                            <li>Элемент 6</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="main__accordion-wrapper js-accordion-wrapper">
+                    <div class="main__accordion js-accordion">
+                        <h3>Tab 2</h3>
+                        <img src="./img/arrow-down.svg" alt="arrow-down">
+                    </div>
+                    <div class="main__accordion-content js-accordion-content">
+                        <ol>
+                            <li>Элемент 1</li>
+                            <li>Элемент 2</li>
+                            <li>Элемент 3</li>
+                            <li>Элемент 4</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="main__accordion-wrapper js-main__accordion-wrapper">
+                    <div class="main__accordion js-accordion">
+                        <h3>Tab 3</h3>
+                        <img src="./img/arrow-down.svg" alt="arrow-down">
+                    </div>
+                    <div class="main__accordion-content js-accordion-content">
+                        <ol>
+                            <li>Элемент 1</li>
+                            <li>Элемент 2</li>
+                            <li>Элемент 3</li>
+                            <li>Элемент 4</li>
+                            <li>Элемент 5</li>
+                            <li>Элемент 6</li>
+                        </ol>
+                    </div>
+                </div>
+                <button class="main__button-continue js-continue-btn" disabled>Продолжить</button>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__lines-wrapper">
+            <div class="footer__left-line"></div>
+            <div class="footer__right-line"></div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
