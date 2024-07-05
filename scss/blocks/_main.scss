@@ -3,9 +3,17 @@
     padding: 30px 0 21px;
 }
 
+.main .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .main__content {
     display: flex;
     flex-direction: column;
+    min-height: 500px;
+    width: 100%;
 }
 
 .main__content h2 {
@@ -16,6 +24,7 @@
 }
 
 .main__accordion-wrapper {
+    width: 100%;
     border-bottom: 1px solid #E9262D;
     border-left: 4px solid transparent;
     border-top: 1px solid transparent;

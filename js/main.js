@@ -58,9 +58,9 @@ accordionsElems.forEach(accordion => {
         } else {
             accordionsContentElems.forEach(content => content.style.maxHeight = null)
             content.style.maxHeight = content.scrollHeight + "px"
+
             wrapper.classList.add("show")
             accordion.classList.add("active")
-
             checkPickedAccordionsIds()
             refreshProgressBar(pickedAccordionsIds.length)
             isReadyToContinue()
@@ -71,7 +71,3 @@ accordionsElems.forEach(accordion => {
 for (let id = 0; id < accordionsElems.length; id++) {
     allAccordionsIds.push(id)
 }
-
-
-
-
